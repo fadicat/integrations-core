@@ -30,7 +30,7 @@ FULL_NAMES = {
 }
 
 # This is automatically maintained
-PYTHON_VERSION = '3.9'
+PYTHON_VERSION = '3.11'
 """,
     )
 
@@ -40,7 +40,7 @@ PYTHON_VERSION = '3.9'
         """[env.collectors.datadog-checks]
 
 [[envs.default.matrix]]
-python = ["2.7", "3.9"]
+python = ["2.7", "3.11"]
 
 """,
     )
